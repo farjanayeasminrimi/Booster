@@ -328,7 +328,7 @@ transform: scaleX(1);
 /* faq area code started */
 .faq_line {
   text-align: center;
-  padding: 40px 0px;
+  padding: 20px 0px;
 }
 .faq_line h1 {
   font-size: 30px;
@@ -407,13 +407,15 @@ transform: scaleX(1);
 .testimonial_area{
   overflow: hidden;
   position: relative;
+  padding-top: 5rem;
+  padding-bottom: 9.2rem;
 }
 .testimony_wrapper{
   position: relative;
   overflow: hidden;
 }
 .testimony_box {
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
 .testimony_info {
@@ -453,3 +455,109 @@ transform: scaleX(1);
   transform: rotate(45deg);
 }
 /* testimonial area ended */
+
+/* footer code started */
+footer {
+  background-color: #2a5476;
+  padding: 5rem 0px 0rem;
+}
+
+.line {
+  font-size: 26px;
+  font-family: var(--logo-font);
+  text-transform: capitalize;
+  margin: 11px 0px;
+  color: #ffffffe6;
+}
+.footer_content_wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.footer_intro {
+  width: 265px;
+}
+
+.footer_intro p {
+  font-family: var(--paragraph-font);
+  font-size: 15px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.primacy_link {
+  width: 190px;
+}
+.permalinks_link {
+  width: 190px;
+}
+
+.contact_info {
+  width: 200px;
+}
+
+.sites_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.sites_list li {
+  padding-bottom: 7px;
+}
+
+ul.sites_list li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffffde;
+  font-size: 15px;
+  font-family: var(--paragraph-font);
+  transition: .1s;
+}
+
+ul.sites_list li a:hover {
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+.contact_info small {
+  font-family: var(--paragraph-font);
+  font-size: 16px;
+}
+
+.media_list {
+  width: 116px;
+  margin-top: 15px;
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.media_list li a {
+  text-decoration: none;
+  color: #ffffffb5;
+}
+
+.media_list li:hover {
+  transform: scale(1.5);
+}
+
+.media_list li {
+  transition: .6s;
+  width: 20px;
+}
+.copyright h1 {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #ffffff42;
+  padding: 5px 0px;
+}
+/* footer code ended */
+
